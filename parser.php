@@ -7,7 +7,7 @@ require './CsvReader.php';
 use ProductListManager\FileIterator as FileIterator;
 
 $CombinationFile = getopt(null, ["unique-combinations:"]);
-if (empty($CombinationCSVFile)) {
+if (empty($CombinationFile)) {
     echo "Error, Missing  combination file parameter. 'unique-combination=ExampleCSVFilename'";
     exit;
 }
