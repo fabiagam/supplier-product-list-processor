@@ -36,3 +36,7 @@ When working on this task the following were considered:
 - PHPUnit tests was written to validate data streamed from CSV filechecks correctly by asserting for boolean feedbacks
 - composer was used to manage package dependencies fir PHP unit tests
 - ![Unit_test_screen](https://user-images.githubusercontent.com/1788922/151258426-f3db9f89-2291-4dd2-9139-cb42f2b295d5.png)
+
+# 3: Other Considerations 
+- To add other formats such as xml or json, a seperate Classfor these formats can be written to adopt the same file parsing workflow.
+- Also a more modular approach can be employed to write the File Iterator class with format as parameter
